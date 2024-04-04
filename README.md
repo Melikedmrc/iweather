@@ -1,3 +1,14 @@
+## Demo
+
+You can view the live demo [here](https://harmonious-naiad-b5757f.netlify.app).
+
+## Technologies Used
+
+- React
+- Axios
+- OpenWeatherMap API
+- Styling with CSS
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
