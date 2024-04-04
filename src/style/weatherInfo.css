@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 30px;
+}
+
+.imageDetail {
+  width: 270px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #16161F;
+}
+
+.img {
+  width: 255px;
+  height: 255px;
+  padding: 10px;
+  border-radius: 10px;
+  background-size: contain;
+}
+
+.info-1 {
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.info-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.info-2 {
+  flex: 1;
+  text-align: left;
+  margin-top: 80px;
+  padding-left: 5px;
+}
+
+.info-3 {
+  flex: 1;
+  text-align: right;
+  margin-left: -40px;
+  padding-top: 15px;
+}
+
+
+.weather-detail {
+  width: 359px;
+  height: 260px;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 12px;
+  background: #16161F;
+}
+
+.weather-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(59, 59, 84, 0.5);
+}
+
+.no-border {
+  border-bottom: none;
+  /* Son weather-info divinden alt çizgiyi kaldırır */
+}
+
+.weather-info span {
+  margin-left: 8px;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
+.align-left {
+  margin-right: auto;
+}
+
+/* 
+
+.forecast-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+} */
+
+.forecast-col {
+  width: 628px;
+  height: 170px;
+  background: #16161F;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-forecast {
+  margin: 20px;
+}
+
+.day-forecast img {
+  width: 80px;
+  height: 80px;
+}

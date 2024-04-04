@@ -1,15 +1,10 @@
-// eslint-disable-next-line no-unused-vars
 import React ,{useState}from 'react'
 import Axios from 'axios'
 import './App.css'
-import Home from './components/home'; 
-
+import Search from './components/search'; 
 function App() {
-
   return (
-    <>
-      <Home />
-    </>
+    <Search/>
   )
 }
 
