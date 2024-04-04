@@ -8,21 +8,28 @@ const Search = () => {
 
     const [weatherData, setWeatherData] = useState(null);
     const [location, setLocation] = useState('');
+    const [error, setError] = useState('');
 
     const handleSearch = async () => {
         try {
             const response = await fetch(`${WEATHER_API_URL}/weather?q=${location}&appid=${WEATHER_API_KEY}`);
+            if (!response.ok) {
+                throw new Error('Invalid city name. Please enter a valid city name.');
+            }
             const data = await response.json();
             console.log('Current Weather Data:', data);
             setWeatherData(data);
+            setError('');
         } catch (error) {
             console.error('API request failed:', error);
+            setError(error.message); // Hata mesajını ayarla
         }
     };
 
     const handleLogoClick = () => {
         setWeatherData(null);
         setLocation('');
+        setError('');
     }
 
     return (
@@ -51,6 +58,7 @@ const Search = () => {
                                     }
                                 }}
                             />
+                            {error && <p className="error-message text-sm">{error}</p>} {/* Hata mesajını göster */}
                         </div>
                     </div>
                 )}

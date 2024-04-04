@@ -64,3 +64,8 @@
 .search-box input[type="text"]::placeholder {
     color: #7F7F98;
 }
+
+.error-message {
+    color: red;
+    margin-top: 5px; 
+}
