@@ -9,6 +9,9 @@ You can view the live demo [here](https://harmonious-naiad-b5757f.netlify.app).
 - OpenWeatherMap API
 - Styling with CSS
 
+
+https://github.com/Melikedmrc/iweather/assets/88986388/0dea0836-7863-4f32-bb4f-9b9556ea0f94
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
