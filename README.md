@@ -5,8 +5,8 @@
 - OpenWeatherMap API
 - Styling with CSS
 
+https://github.com/Melikedmrc/iweather/assets/88986388/6d72fc11-980e-41ca-b155-3bf30d62b3ea
 
-https://github.com/Melikedmrc/iweather/assets/88986388/0dea0836-7863-4f32-bb4f-9b9556ea0f94
 
 # React + Vite
 
