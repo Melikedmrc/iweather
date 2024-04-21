@@ -6,7 +6,9 @@
 - Styling with CSS
 
 
-https://github.com/Melikedmrc/iweather/assets/88986388/0dea0836-7863-4f32-bb4f-9b9556ea0f94
+https://github.com/Melikedmrc/iweather/assets/88986388/55b57bdf-78c5-42f2-ba43-2a3754660e7d
+
+
 
 # React + Vite
 
