@@ -16,6 +16,8 @@ const Search = () => {
         console.log('Current Location:', currentLocation); 
     }, [currentLocation]);
 
+
+    
     const handleSearch = async () => {
         try {
             const response = await fetch(`${WEATHER_API_URL}/weather?q=${location}&appid=${WEATHER_API_KEY}`);

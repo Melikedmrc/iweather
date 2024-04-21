@@ -8,7 +8,7 @@ function WeatherDetail({ weatherData }) {
     const windSpeed = Math.round(weatherData.wind.speed);
 
     return (
-        <div className="container">
+        <div className="container ">
             <div className="weather-detail gray-800">
                 <div className="weather-info gray-200">
                     <ThermometerSimple size={24} color="#3B3B54" />

@@ -25,8 +25,8 @@ function Card({ weatherData }) {
   }
 
   return (
-    <div className="container">
-      <div className="image-detail blue-light">
+    <div className="container image-detail">
+      <div className=" blue-light">
         <div className="img" style={{ backgroundImage: backgroundImage }}>
           <div className='info-1'>
             <h1 className="city heading-sm gray-100">{weatherData.name}, {weatherData.sys.country}</h1>
