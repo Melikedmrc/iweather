@@ -69,3 +69,25 @@
     color: red;
     margin-top: 5px; 
 }
+
+.current-location {
+    width: 300px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 16px 20px;
+    gap: 8px;
+    border-bottom: 1px solid #1E1E29; /* border rengi eklendi */
+    background-color: #7F7F98;
+    display: flex;
+    align-items: center; /* Mevcut konumu dikeyde ortala */
+    justify-content: flex-start; /* Mevcut konumu yatayda sola yasla */
+    cursor: pointer;
+}
+
+.current-location p {
+    text-align: left;
+    background: #FAFAFA;
+    margin: 0; /* Paragrafın varsayılan margin'ini kaldır */
+    padding: 0; /* Paragrafın varsayılan padding'ini kaldır */
+}

@@ -4,6 +4,7 @@ import weatherAssets from '../weatherAssets';
 import { format } from 'date-fns';
 
 function Card({ weatherData }) {
+  console.log("weatherData:", weatherData); 
   const currentDate = new Date(weatherData.dt * 1000);
   const temperatureCelcius = Math.round(weatherData.main.temp - 273.15);
   const minTemperatureCelcius = Math.round(weatherData.main.temp_min - 273.15);
