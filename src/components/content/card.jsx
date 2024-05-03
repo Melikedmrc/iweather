@@ -14,8 +14,8 @@ function Card({ weatherData }) {
   let weatherIcon = '';
   weatherAssets.backgrounds.forEach(item => {
     if (weatherData.weather[0].description.includes(item.description)) {
-      backgroundImage = `url("${isDay(currentDate) ? item.image.replace('Day', 'Night') : item.image}")`;
-      weatherIcon = isDay(currentDate) ? item.icon.replace('Day', 'Night') : item.icon;
+      backgroundImage = `url("${isDay(currentDate) ? item.image.replace('Night', 'Day') : item.image}")`;
+      weatherIcon = isDay(currentDate) ? item.icon.replace('Night', 'Day') : item.icon;
     }
   });
 
