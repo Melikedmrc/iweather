@@ -1,3 +1,7 @@
+# iWeather
+
+iWeather is a simple weather application built with React, fetching weather data from the OpenWeatherMap API. It allows users to search for weather information of different locations.
+
 ## Technologies Used
 
 - React
@@ -5,8 +9,22 @@
 - OpenWeatherMap API
 - Styling with CSS
 
+## Installation
 
-https://github.com/Melikedmrc/iweather/assets/88986388/55b57bdf-78c5-42f2-ba43-2a3754660e7d
+To get started with iWeather, follow these steps:
+
+1. Clone the repository to your local machine : git clone 
+
+2. Navigate into the project directory : cd iweather
+
+3. Install the necessary dependencies using npm : npm install
+
+## Usage
+
+Once you have installed the dependencies, you can start the project by running : npm run dev
+
+
+https://github.com/Melikedmrc/iweather/assets/88986388/f40fb744-94c3-4094-8d68-1589125ccb81
 
 
 
